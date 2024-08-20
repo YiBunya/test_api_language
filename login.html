@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Login Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="login-container bg-light">
+            <h2 class="text-center mb-4">Login</h2>
+            <form id="frm">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email_log" placeholder="Enter your email">
+                        <label class="input-group-text bg-info text-light fs-5" for="email"><i class="fa-regular fa-envelope"></i></label>
+                    </div>
+                    <label for="email" class="text-danger" id="label_email"></label>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password" >
+                        <label for="password" class="input-group-text bg-info text-light fs-5" id="look_password"><i class="fa-solid fa-lock" id="look_icon"></i></label>
+                    </div>
+                    <label for="password" class="text-danger" id="label_password"></label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+        </div>
+    </div>
+    <div class="alert_log d-none" id="alert_log">
+        <span class="" id="alert_message" onmou></span>
+        <span class="fs-5 text-danger" id="close_alert"><i class="fa-solid fa-xmark"></i></span>
+    </div>
+    <!-- Bootstrap JS (Optional) -->
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Script Login  -->
+     <script src="js/login.js"></script>
+</body>
+</html>

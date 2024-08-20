@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.alert_log{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    background-color: #f8f9fa; 
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 5px 20px;
+    border-radius: 5px;
+    color: #00b4d8;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
